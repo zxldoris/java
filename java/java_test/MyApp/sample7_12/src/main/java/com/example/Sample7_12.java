@@ -23,6 +23,7 @@ public class Sample7_12
     public static void main(String[] args)
     {
         People p = new People();
-        p.setSize(-5);
+        p.setSize(175);
+        System.out.println("The height is "+p.getSize()+"cm");
     }
 }
