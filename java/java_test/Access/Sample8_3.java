@@ -1,3 +1,4 @@
+//成员变量的隐藏
 class Father
 {
 	String s = "father";
