@@ -1,0 +1,15 @@
+package com.hxlxz.zxl;
+
+public class Initail {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Shape rectangle = new Rectangle();
+		Shape circle = new Circle();
+		rectangle.primeter();
+		rectangle.area();
+		circle.primeter();
+		circle.area();
+	}
+
+}

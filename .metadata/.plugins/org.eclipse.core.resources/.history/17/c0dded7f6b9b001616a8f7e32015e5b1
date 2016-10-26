@@ -1,0 +1,6 @@
+package com.hxlxz.zxl;
+
+public abstract class Shape {
+	public abstract void call();
+	public abstract void message();
+}
