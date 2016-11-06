@@ -1,0 +1,25 @@
+package com.hxlxz.zxl;
+
+public class TryCatch {
+
+	public static void main(String[] args) {
+		TryCatch tc = new TryCatch();
+		int re = tc.test();
+		System.out.println("返回值：" + re);
+	}
+	public int test(){
+		int divider=10;
+		int result=10;
+		try{
+			while(divider>=-1){
+				divider--;
+				result = result + 100/divider;
+				return result;
+			}
+		}catch(Exception e){
+			System.out.println("程序执行异常！");
+		}
+		return -1;
+	}
+
+}

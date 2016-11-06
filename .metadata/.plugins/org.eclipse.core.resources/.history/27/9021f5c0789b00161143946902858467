@@ -1,7 +1,0 @@
-package people;
-
-public  class Human {
-	public  void speak(){
-		System.out.println("speak");
-	}
-}
