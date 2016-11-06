@@ -31,7 +31,7 @@ public class Initail {
 		
 		for(int i=0;i<rentNum;i++){
 			System.out.println("ÇëÊäÈëµÚ"+(i+1)+"Á¾³µ");
-			carNum[i] = sc.nextInt()-1;	
+			carNum[i] = sc.nextInt();	
 		}
 		for(int i=0;i<rentNum;i++){
 			sumPriceDaily += carRentTabs[carNum[i]].getRentPrice();
