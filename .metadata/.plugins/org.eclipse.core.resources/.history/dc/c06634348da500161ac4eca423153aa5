@@ -1,0 +1,48 @@
+package com.hxlxz.zxl;
+
+import java.util.Scanner;
+
+public class Initail {
+
+	String[] books = {"高数","数据结构","语文","英语"};
+	public static void main(String[] args) {
+		Initail findWay = new Initail();
+		int findBook = findWay.InputFindWay();
+		while(true){
+			if(findBook == 1){
+				Initail fName = new Initail();
+				fName.findName();
+				break;
+			}else if(findBook == 2){
+				Initail fNum = new Initail();
+				fNum.findNum();
+				break;
+			}else{
+				try{
+					
+				}catch(Exception e){
+					System.out.println("输入命令不正确！请重新输入：");
+				}
+			}
+		}
+		
+	}
+	private int InputFindWay() throws {
+		System.out.println("输入命令：1-按照名称查找图书；2-按照序号查找图书.");
+		Scanner sc = new Scanner(System.in);
+		int bookFind = sc.nextInt();
+		try{
+			
+		}catch(Exception e){
+			
+		}
+		return 0;
+	}
+	private void findNum(){
+		
+	}
+	private void findName(){
+		
+	}
+
+}

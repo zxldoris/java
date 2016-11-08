@@ -1,0 +1,9 @@
+package com.hxlxz.zxl;
+
+public class BookNameNotExsitException extends Exception {
+	public BookNameNotExsitException{
+	}
+	public BookNameNotExsitException(message){
+		super(message);
+	}
+}
