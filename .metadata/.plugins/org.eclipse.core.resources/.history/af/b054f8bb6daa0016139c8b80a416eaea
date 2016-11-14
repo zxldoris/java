@@ -1,0 +1,14 @@
+package com.hxlxz.zxl;
+
+import java.util.ArrayList;
+
+public class ListTest {
+	public ArrayList<Course> CoursesToSelect;
+	public ListTest(){
+		this.CoursesToSelect = new ArrayList<Course>();
+	}
+	public void tesrAdd(){
+		
+	}
+
+}
