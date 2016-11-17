@@ -1,0 +1,18 @@
+package com.hxlxz.zxl;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Cards {
+	public String color;
+	public String point;
+	public List<Cards> cards;
+	public Cards(String color,String point){
+		this.color = color;
+		this.point = point;
+		this.cards = new ArrayList<Cards>();
+	}
+	public Cards(){
+		
+	}
+}

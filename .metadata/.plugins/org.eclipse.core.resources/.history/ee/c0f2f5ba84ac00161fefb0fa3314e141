@@ -1,0 +1,13 @@
+package com.hxlxz.zxl;
+
+public class Operat {
+	public void creatCards(){
+
+	}
+	public void distCards(){
+		
+	}
+	public void compareCards(){
+		
+	}
+}

@@ -1,0 +1,39 @@
+package com.hxlxz.zxl;
+
+public class Operat {
+	public static void main(String [] args){
+		Operat o = new Operat();
+		o.creatCards();
+		String[] t = {"1","2","3","4"};
+		for(int i = 0; i<t.length; i++){
+			System.out.println(t[i]);
+		}
+		
+	}
+	
+	@Override
+	public String toString() {
+		return "Operat [getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
+				+ "]";
+	}
+
+	public void creatCards(){
+		String[] color = {"ºÚÌÒ","ºìÌÒ","Ã·»¨","·½Æ¬"};
+		String[] point = {"A","1","2","3","4","5","6","8","9","10","J","Q","K"};
+		Cards[] c = new Cards[52];
+		int k = 0;
+		for(int i = 0; i < color.length; i++)
+			for(int j = 0; j < point.length; j++){
+				c[k] = new Cards(color[i],point[j]);
+				System.out.println(c[k]);
+				k++;
+			}
+		
+	}
+	public void distCards(){
+		
+	}
+	public void compareCards(){
+		
+	}
+}

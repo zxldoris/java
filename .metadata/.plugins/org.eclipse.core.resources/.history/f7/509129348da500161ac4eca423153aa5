@@ -1,5 +1,0 @@
-package com.hxlxz.zxl;
-
-public class InputErrorException extends Exception {
-
-}
